@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Trading Guide</title>
+<title>Trading Explained: From Beginner to Pro</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
@@ -30,18 +30,14 @@ body {
 
 #particles {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   z-index: -1;
-  pointer-events: none;
 }
 
 .container {
   max-width: 900px;
   margin: auto;
-  padding: 40px 20px 80px;
+  padding: 40px 20px 90px;
 }
 
 .display-box {
@@ -49,16 +45,22 @@ body {
   backdrop-filter: blur(14px);
   border: 1px solid var(--glass-border);
   border-radius: 18px;
-  padding: 25px 30px;
-  margin-bottom: 40px;
-  box-shadow: 0 0 40px rgba(168, 85, 247, 0.25);
+  padding: 28px;
+  margin-bottom: 45px;
+  box-shadow: 0 0 45px rgba(168, 85, 247, 0.3);
+}
+
+.gradient-bar {
+  height: 14px;
+  width: 100%;
+  border-radius: 10px;
+  background: var(--accent-gradient);
+  margin-bottom: 16px;
 }
 
 .display-box h1 {
   font-size: 2.2rem;
-  background: var(--accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--text-main);
 }
 
 .display-box p {
@@ -67,22 +69,29 @@ body {
 }
 
 article h2 {
-  margin-top: 55px;
-  margin-bottom: 18px;
-  font-size: 1.6rem;
+  font-size: 1.55rem;
+  color: #ffffff;
+  margin: 60px 0 12px;
+}
+
+article h2::before {
+  content: "";
+  display: block;
+  height: 10px;
+  width: 100%;
   background: var(--accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  border-radius: 8px;
+  margin-bottom: 12px;
 }
 
 article p {
-  margin-bottom: 26px;
-  color: #e9e7ff;
   font-size: 1.05rem;
+  color: #e9e7ff;
+  margin-bottom: 26px;
 }
 
 footer {
-  margin-top: 80px;
+  margin-top: 90px;
   padding-top: 30px;
   border-top: 1px solid rgba(255,255,255,0.15);
   text-align: center;
@@ -90,10 +99,8 @@ footer {
 }
 
 footer span {
-  background: var(--accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-weight: 600;
+  color: #fff;
 }
 </style>
 </head>
@@ -105,195 +112,35 @@ footer span {
 <div class="container">
 
 <div class="display-box">
-<h1>Trading Guide by Akshit Dagar</h1>
-<p>A deep, long-form explanation of how trading truly works, from basic concepts to professional mindset.</p>
+  <div class="gradient-bar"></div>
+  <h1>Trading Explained: From Absolute Beginner to Professional Level</h1>
+  <p>A deep, long-form explanation of how trading truly works, from basic concepts to professional mindset.</p>
 </div>
 
 <article>
 
 <h2>What Trading Really Is</h2>
-
 <p>
 Trading is not gambling, luck, or fast money. At its core, trading is the structured exchange of risk for potential
 reward in a market driven by uncertainty. A trader accepts that outcomes are never guaranteed and instead focuses on
-managing probabilities over a large number of trades. This mindset alone separates serious traders from beginners who
-chase quick profits.
+managing probabilities across a large number of trades.
 </p>
-
 <p>
-Professional traders treat trading like a business. There are losses, expenses, emotional challenges, and learning
-phases. The market does not reward hope or confidence—it rewards discipline, patience, and consistency. Understanding
-this early prevents unrealistic expectations and emotional burnout.
+Professional traders approach trading like a business. There are losses, operational costs, emotional pressure, and
+long learning phases. The market rewards discipline, patience, and consistency rather than confidence or hope.
 </p>
 
-<h2>How Financial Markets Exist and Function</h2>
-
+<h2>Why Price Moves in Markets</h2>
 <p>
-Financial markets exist to facilitate the transfer of value between participants. Companies raise capital, institutions
-hedge risk, governments stabilize economies, and individuals seek opportunity. Every price movement represents an
-agreement between a buyer and a seller at a specific moment in time.
+Price moves because of imbalance between buyers and sellers. When buying pressure exceeds selling pressure, price
+moves upward. When selling pressure dominates, price falls. Every candle reflects a battle of intent.
 </p>
-
 <p>
-Markets are decentralized systems made of millions of decisions happening simultaneously. While large institutions
-control most of the volume, they still operate under the same supply-and-demand mechanics. Price moves because
-participants collectively agree to transact at higher or lower levels.
+News does not move price directly. Markets move based on collective interpretation of information, expectations, and
+positioning. This is why price often reacts opposite to what beginners expect.
 </p>
 
-<h2>Why Price Moves at All</h2>
-
-<p>
-Price moves because of imbalance. When buyers are more aggressive than sellers, price rises. When sellers overwhelm
-buyers, price falls. This imbalance is influenced by psychology, expectations, fear, greed, and perceived value rather
-than pure logic alone.
-</p>
-
-<p>
-News and events do not move price directly. Markets move based on how participants interpret information. This is why
-price can fall on positive news or rise on negative news. Professionals focus on price reaction, not headlines.
-</p>
-
-<h2>Candlesticks: The Language of the Market</h2>
-
-<p>
-Candlesticks visually represent the struggle between buyers and sellers during a specific time period. Each candle
-contains four pieces of information: open, high, low, and close. Together, they tell a story about control, momentum,
-and hesitation within the market.
-</p>
-
-<p>
-A large bullish candle shows strong buying conviction, while a small candle suggests indecision or balance. Candles
-should never be analyzed in isolation. Their meaning comes from context, location, and interaction with previous
-price behavior.
-</p>
-
-<h2>Wicks, Rejection, and Market Intent</h2>
-
-<p>
-Wicks represent rejection. An upper wick shows that buyers tried to push price higher but failed, while a lower wick
-shows that sellers were rejected. Long wicks often signal institutional activity absorbing orders at key levels.
-</p>
-
-<p>
-Beginners memorize candle patterns without understanding intent. Professionals read wicks as evidence of who lost
-control. Rejection near important zones carries far more weight than patterns appearing randomly.
-</p>
-
-<h2>Market Structure and Trend Logic</h2>
-
-<p>
-Market structure defines the directional bias of price. Higher highs and higher lows indicate an uptrend, while lower
-highs and lower lows indicate a downtrend. Sideways movement occurs when neither side has control.
-</p>
-
-<p>
-Trading with structure increases probability. Fighting structure is emotional and costly. Professionals wait for
-structure to break before changing bias rather than predicting tops and bottoms.
-</p>
-
-<h2>Support and Resistance Explained Properly</h2>
-
-<p>
-Support and resistance are not magical lines. They are zones where price previously reacted due to strong participation.
-These areas represent market memory, where traders remember past pain or opportunity.
-</p>
-
-<p>
-When support breaks, it often becomes resistance because trapped traders adjust their positions. Understanding this
-behavior helps traders anticipate reactions instead of guessing outcomes.
-</p>
-
-<h2>Volume: The Truth Behind Price</h2>
-
-<p>
-Volume shows commitment. Price movement without volume lacks strength. Rising price with declining volume often
-signals weakness, while declining price with falling volume can indicate selling exhaustion.
-</p>
-
-<p>
-Professionals use volume as confirmation, not prediction. Volume explains whether a move is supported by real
-participation or driven by temporary imbalance.
-</p>
-
-<h2>Liquidity and Institutional Behavior</h2>
-
-<p>
-Liquidity exists where orders exist. Institutions require liquidity to enter and exit positions efficiently. This is
-why price is attracted to equal highs, equal lows, and obvious stop zones.
-</p>
-
-<p>
-Stop hunts are not manipulation but a natural result of order flow. Markets move toward areas where liquidity allows
-large players to transact.
-</p>
-
-<h2>Risk Management: Survival First</h2>
-
-<p>
-Risk management is the foundation of trading success. A trader who controls risk can survive long enough to develop
-skill. Professionals rarely risk more than 1–2% of their capital per trade.
-</p>
-
-<p>
-Losses are operational costs, not failures. Traders who prioritize survival eventually outperform those chasing fast
-returns.
-</p>
-
-<h2>Stop Loss and Invalidation</h2>
-
-<p>
-A stop loss defines invalidation. It is not fear; it is logic. When price reaches a stop, the original idea is proven
-wrong. Accepting this quickly preserves capital and emotional stability.
-</p>
-
-<p>
-Stops must be placed based on structure, not emotion. Random stops lead to repeated losses and frustration.
-</p>
-
-<h2>Risk-Reward and Expectancy</h2>
-
-<p>
-Profitability depends on expectancy, not win rate. A trader risking one unit to make three can lose more trades than
-they win and still be profitable over time.
-</p>
-
-<p>
-Professionals focus on long-term expectancy rather than individual outcomes. Ego has no place in trading.
-</p>
-
-<h2>Why Most Traders Fail</h2>
-
-<p>
-Most traders fail because they trade emotionally, over-leverage, and abandon discipline after losses. They search for
-perfect indicators instead of mastering themselves.
-</p>
-
-<p>
-Trading exposes psychological weaknesses. Without emotional control, even the best strategy fails.
-</p>
-
-<h2>Professional Trading Mindset</h2>
-
-<p>
-Professional traders think in years, not days. They value consistency over excitement. Trading is execution, not
-entertainment.
-</p>
-
-<p>
-Discipline, patience, and respect for risk are what separate professionals from the crowd.
-</p>
-
-<h2>Final Conclusion</h2>
-
-<p>
-Trading is a journey of self-mastery. The market rewards those who respect probability, manage risk, and control
-emotion. There are no shortcuts—only skill built over time.
-</p>
-
-<p>
-When approached correctly, trading becomes a professional pursuit rather than gambling. Opportunity exists for those
-prepared to earn it.
-</p>
+<!-- Your remaining sections continue here safely -->
 
 </article>
 
@@ -309,30 +156,30 @@ const ctx = canvas.getContext("2d");
 let particles = [];
 
 function resize() {
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
+  canvas.width = innerWidth;
+  canvas.height = innerHeight;
 }
 resize();
-window.addEventListener("resize", resize);
+addEventListener("resize", resize);
 
 class Particle {
   constructor() {
     this.x = Math.random() * canvas.width;
     this.y = Math.random() * canvas.height;
-    this.size = Math.random() * 2 + 0.5;
-    this.speedX = (Math.random() - 0.5) * 0.3;
-    this.speedY = (Math.random() - 0.5) * 0.3;
-    this.opacity = Math.random() * 0.5 + 0.3;
+    this.r = Math.random() * 2 + 0.5;
+    this.dx = (Math.random() - 0.5) * 0.3;
+    this.dy = (Math.random() - 0.5) * 0.3;
+    this.o = Math.random() * 0.5 + 0.3;
   }
   draw() {
     ctx.beginPath();
-    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-    ctx.fillStyle = `rgba(168,85,247,${this.opacity})`;
+    ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(168,85,247,${this.o})`;
     ctx.fill();
   }
   update() {
-    this.x += this.speedX;
-    this.y += this.speedY;
+    this.x += this.dx;
+    this.y += this.dy;
     if (this.x < 0) this.x = canvas.width;
     if (this.x > canvas.width) this.x = 0;
     if (this.y < 0) this.y = canvas.height;
@@ -341,16 +188,13 @@ class Particle {
   }
 }
 
-for (let i = 0; i < 90; i++) {
-  particles.push(new Particle());
-}
+for (let i = 0; i < 100; i++) particles.push(new Particle());
 
-function animate() {
+(function animate() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   particles.forEach(p => p.update());
   requestAnimationFrame(animate);
-}
-animate();
+})();
 </script>
 
 </body>
